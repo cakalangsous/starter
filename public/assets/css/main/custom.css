@@ -1,0 +1,7 @@
+.swal2-actions {
+    gap: 1.3rem;
+}
+
+body.theme-dark .filepond--panel-root {
+    background-color: #323244;
+}
