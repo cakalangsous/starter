@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\View\View;
 
 class AdminController extends Controller
@@ -12,6 +13,13 @@ class AdminController extends Controller
         "active_menu" => "",
         "title"       => "Laraku"
     ];
+
+    public function __construct()
+    {
+        if (!Schema::hasTable('migrations')) {
+            return redirect()->to(url('/install'))->send();
+        }
+    }
 
     public function view($view='', $data=[]): View
     {
