@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '774d2c545f9b80f3d833b6aed1f4e8ee82033c2d',
+        'reference' => '8d4194bc72c5024efdeb1899e89e85dabc4fe260',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -421,7 +421,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '774d2c545f9b80f3d833b6aed1f4e8ee82033c2d',
+            'reference' => '8d4194bc72c5024efdeb1899e89e85dabc4fe260',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -856,8 +856,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -882,6 +882,15 @@
             'install_path' => __DIR__ . '/../psy/psysh',
             'aliases' => array(),
             'reference' => '39621c73e0754328252f032c6997b983afc50431',
+            'dev_requirement' => false,
+        ),
+        'rachidlaasri/laravel-installer' => array(
+            'pretty_version' => '4.1.0',
+            'version' => '4.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rachidlaasri/laravel-installer',
+            'aliases' => array(),
+            'reference' => 'b751b4c23dba893e9a4a12f881a6fd8fa921d228',
             'dev_requirement' => false,
         ),
         'ralouphie/getallheaders' => array(
