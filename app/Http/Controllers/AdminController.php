@@ -16,7 +16,7 @@ class AdminController extends Controller
 
     public function __construct()
     {
-        if (!Schema::hasTable('migrations')) {
+        if (!file_exists(storage_path('installed'))) {
             return redirect()->to(url('/install'))->send();
         }
     }
