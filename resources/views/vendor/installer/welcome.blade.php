@@ -9,9 +9,9 @@
 @endsection
 
 @section('container')
-    <h4 class="text-center" style="margin-top: 0;">Laravel Starter Kit</h4>
+    <h4 class="text-center" style="margin-top: 0;">Laraku - Laravel 11 Starter Kit</h4>
     <p class="text-center" style="margin: 10px 0 40px;">
-      {{ __('Thank you for purchasing the laravel starter site. Click the button below to start the installation.') }}
+      {{ __('Thank you for purchasing Laraku. Click the button below to start the installation.') }}
     </p>
     <p class="text-center">
       <a href="{{ route('LaravelInstaller::requirements') }}" class="button">

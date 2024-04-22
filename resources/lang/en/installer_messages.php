@@ -7,7 +7,7 @@ return [
      * Shared translations.
      *
      */
-    'title' => 'Starter Installer',
+    'title' => 'Laraku Installer',
     'next' => 'Next Step',
     'back' => 'Previous',
     'finish' => 'Install',
@@ -22,7 +22,7 @@ return [
      */
     'welcome' => [
         'templateTitle' => 'Welcome',
-        'title'   => 'Starter Installer',
+        'title'   => 'Laraku Installer',
         'message' => 'Easy Installation and Setup Wizard.',
         'next'    => 'Check Requirements',
     ],
@@ -176,7 +176,7 @@ return [
      *
      */
     'installed' => [
-        'success_log_message' => 'Starter Installer successfully INSTALLED on ',
+        'success_log_message' => 'Laraku Installer successfully INSTALLED on ',
     ],
 
     /*
@@ -241,7 +241,7 @@ return [
         ],
 
         'log' => [
-            'success_message' => 'Starter Installer successfully UPDATED on ',
+            'success_message' => 'Laraku Installer successfully UPDATED on ',
         ],
     ],
 ];
